@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="desktopf.css">
+    <title>Desktop</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro de máquinas</h1>
+        <p id="subtitulo">Complete as informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="modelo">Desktop</label>
+                <select name="modelo" id="modelo" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Optiplex 330</option>
+                    <option>Optiplex 360</option>
+                    <option>Optiplex 380</option>
+                    <option>Optiplex 390</option>
+                    <option>Optiplex 3040</option>
+                    <option>Optiplex 3060</option>
+                    <option>Optiplex 3070</option>
+                    <option>Optiplex 3070 mini</option>
+                    <option>Optiplex 3080</option>
+                    <option>Optiplex 3080 mini</option>
+                    <option>Optiplex 3020</option>                    
+                    <option>Dell vostro</option>
+                    <option>Lenovo</option>
+                </select>                    
+            </div>
+
+            <div>
+                <label for="service-tag">Service-tag</label>
+                <input type="text" name="service-tag" id="service-tag" required>
+            </div>
+
+            <div>
+                <br>
+                <label for="observaçao">Observação:</label>
+                <textarea rows="6" style="width: 26em;" id="observaçao" name="observaçao"></textarea>
+            </div>
+        </fieldset>
+
+        <button class="botao" type="submit">Enviar</button>
+
+
+    </form>
+</body>
+</html>
